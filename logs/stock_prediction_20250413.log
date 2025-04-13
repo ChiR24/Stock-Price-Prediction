@@ -1,0 +1,1170 @@
+2025-04-13 18:15:33,408 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-13 18:15:37,412 - stock_data_collector - INFO - Saved historical data for AAPL to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\AAPL_historical.csv
+2025-04-13 18:15:37,922 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-13 18:15:39,134 - stock_data_collector - INFO - Saved historical data for MSFT to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\MSFT_historical.csv
+2025-04-13 18:15:39,644 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-13 18:15:40,793 - stock_data_collector - INFO - Saved historical data for GOOGL to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\GOOGL_historical.csv
+2025-04-13 18:15:41,305 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-13 18:15:42,156 - stock_data_collector - INFO - Saved historical data for AMZN to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\AMZN_historical.csv
+2025-04-13 18:15:42,667 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-13 18:15:43,824 - stock_data_collector - INFO - Saved historical data for META to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\META_historical.csv
+2025-04-13 18:15:44,332 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-13 18:15:45,216 - stock_data_collector - INFO - Saved historical data for TSLA to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\TSLA_historical.csv
+2025-04-13 18:15:45,724 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-13 18:15:46,945 - stock_data_collector - INFO - Saved historical data for NVDA to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\NVDA_historical.csv
+2025-04-13 18:15:47,454 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-13 18:15:48,412 - stock_data_collector - INFO - Saved historical data for JPM to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\JPM_historical.csv
+2025-04-13 18:15:48,919 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-13 18:15:49,861 - stock_data_collector - INFO - Saved historical data for V to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\V_historical.csv
+2025-04-13 18:15:50,373 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-13 18:15:51,669 - stock_data_collector - INFO - Saved historical data for WMT to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\WMT_historical.csv
+2025-04-13 18:15:52,176 - stock_data_collector - INFO - Starting continuous data collection every 60 seconds
+2025-04-13 18:15:52,177 - stock_data_collector - INFO - Collection iteration 1
+2025-04-13 18:15:52,177 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:15:53,154 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:15:54,089 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:15:55,039 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:15:56,004 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:15:56,907 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:15:57,810 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:15:58,789 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:15:59,780 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:16:00,743 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:16:01,773 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_181601.csv
+2025-04-13 18:16:01,773 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:17:01,777 - stock_data_collector - INFO - Collection iteration 2
+2025-04-13 18:17:01,778 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:17:02,729 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:17:03,846 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:17:04,812 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:17:05,715 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:17:06,618 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:17:07,584 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:17:08,564 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:17:09,562 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:17:10,481 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:17:11,448 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_181711.csv
+2025-04-13 18:17:11,448 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:18:11,457 - stock_data_collector - INFO - Collection iteration 3
+2025-04-13 18:18:11,457 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:18:12,466 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:18:13,414 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:18:14,317 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:18:15,218 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:18:16,166 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:18:17,159 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:18:18,073 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:18:19,085 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:18:20,018 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:18:20,982 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_181820.csv
+2025-04-13 18:18:20,983 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:19:10,327 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-13 18:19:14,677 - stock_data_collector - INFO - Saved historical data for AAPL to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\AAPL_historical.csv
+2025-04-13 18:19:15,186 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-13 18:19:15,666 - stock_data_collector - INFO - Saved historical data for MSFT to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\MSFT_historical.csv
+2025-04-13 18:19:16,179 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-13 18:19:16,675 - stock_data_collector - INFO - Saved historical data for GOOGL to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\GOOGL_historical.csv
+2025-04-13 18:19:17,188 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-13 18:19:17,639 - stock_data_collector - INFO - Saved historical data for AMZN to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\AMZN_historical.csv
+2025-04-13 18:19:18,152 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-13 18:19:18,619 - stock_data_collector - INFO - Saved historical data for META to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\META_historical.csv
+2025-04-13 18:19:19,133 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-13 18:19:19,583 - stock_data_collector - INFO - Saved historical data for TSLA to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\TSLA_historical.csv
+2025-04-13 18:19:20,098 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-13 18:19:20,856 - stock_data_collector - INFO - Saved historical data for NVDA to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\NVDA_historical.csv
+2025-04-13 18:19:20,998 - stock_data_collector - INFO - Collection iteration 4
+2025-04-13 18:19:20,998 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:19:21,364 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-13 18:19:22,068 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:19:22,120 - stock_data_collector - INFO - Saved historical data for JPM to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\JPM_historical.csv
+2025-04-13 18:19:22,635 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-13 18:19:23,050 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:19:23,209 - stock_data_collector - INFO - Saved historical data for V to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\V_historical.csv
+2025-04-13 18:19:23,723 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-13 18:19:24,014 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:19:24,512 - stock_data_collector - INFO - Saved historical data for WMT to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\WMT_historical.csv
+2025-04-13 18:19:24,917 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:19:25,026 - stock_data_collector - INFO - Starting continuous data collection every 60 seconds
+2025-04-13 18:19:25,026 - stock_data_collector - INFO - Collection iteration 1
+2025-04-13 18:19:25,026 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:19:25,820 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:19:26,020 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:19:26,787 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:19:26,956 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:19:27,766 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:19:27,872 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:19:28,759 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:19:28,775 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:19:29,678 - stock_data_collector - INFO - Collecting real-time data for WMT
+
+2025-04-13 18:19:30,643 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:19:30,705 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_181930.csv
+2025-04-13 18:19:30,706 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:19:31,562 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:19:32,405 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:19:33,325 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:19:34,308 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_181934.csv
+2025-04-13 18:19:34,308 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:20:30,717 - stock_data_collector - INFO - Collection iteration 5
+2025-04-13 18:20:30,717 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:20:31,681 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:20:32,659 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:20:33,608 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:20:34,312 - stock_data_collector - INFO - Collection iteration 2
+2025-04-13 18:20:34,313 - stock_data_collector - INFO - Collecting real-time data for AAPL
+2025-04-13 18:20:34,559 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:20:35,295 - stock_data_collector - INFO - Collecting real-time data for MSFT
+2025-04-13 18:20:35,464 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:20:36,215 - stock_data_collector - INFO - Collecting real-time data for GOOGL
+2025-04-13 18:20:36,522 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:20:37,119 - stock_data_collector - INFO - Collecting real-time data for AMZN
+2025-04-13 18:20:37,487 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:20:38,008 - stock_data_collector - INFO - Collecting real-time data for META
+2025-04-13 18:20:38,484 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:20:38,912 - stock_data_collector - INFO - Collecting real-time data for TSLA
+2025-04-13 18:20:39,400 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:20:39,859 - stock_data_collector - INFO - Collecting real-time data for NVDA
+2025-04-13 18:20:40,409 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_182040.csv
+2025-04-13 18:20:40,835 - stock_data_collector - INFO - Collecting real-time data for JPM
+2025-04-13 18:20:41,828 - stock_data_collector - INFO - Collecting real-time data for V
+2025-04-13 18:20:42,793 - stock_data_collector - INFO - Collecting real-time data for WMT
+2025-04-13 18:20:43,822 - stock_data_collector - INFO - Saved real-time data to X:\VS\Lab\Assignment 2 big datra\data\raw\stocks\realtime_20250413_182043.csv
+2025-04-13 18:20:43,822 - stock_data_collector - INFO - Sleeping for 60 seconds
+2025-04-13 18:20:55,877 - stock_data_collector - INFO - Data collection stopped by user
+2025-04-13 18:22:56,246 - mock_sentiment_data - INFO - Generating mock sentiment data for 10 tickers over 60 days
+2025-04-13 18:22:56,432 - mock_sentiment_data - INFO - Saved 11861 mock sentiment records to X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\mock_sentiment_data.csv
+2025-04-13 18:23:06,098 - mock_economic_data - INFO - Generating mock economic data for 9 indicators
+2025-04-13 18:23:06,105 - mock_economic_data - INFO - Saved 20 observations for GDP to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\GDP_data.csv
+2025-04-13 18:23:06,108 - mock_economic_data - INFO - Saved 60 observations for UNRATE to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\UNRATE_data.csv
+2025-04-13 18:23:06,112 - mock_economic_data - INFO - Saved 60 observations for CPIAUCSL to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\CPIAUCSL_data.csv
+2025-04-13 18:23:06,114 - mock_economic_data - INFO - Saved 60 observations for FEDFUNDS to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\FEDFUNDS_data.csv
+2025-04-13 18:23:06,117 - mock_economic_data - INFO - Saved 60 observations for INDPRO to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\INDPRO_data.csv
+2025-04-13 18:23:06,122 - mock_economic_data - INFO - Saved 60 observations for HOUST to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\HOUST_data.csv
+2025-04-13 18:23:06,125 - mock_economic_data - INFO - Saved 60 observations for PCE to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\PCE_data.csv
+2025-04-13 18:23:06,129 - mock_economic_data - INFO - Saved 60 observations for RETAIL to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\RETAIL_data.csv
+2025-04-13 18:23:06,135 - mock_economic_data - INFO - Saved 261 observations for M2 to X:\VS\Lab\Assignment 2 big datra\data\raw\economic\M2_data.csv
+2025-04-13 21:28:47,603 - main - INFO - Configuration:
+2025-04-13 21:28:47,603 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 21:28:47,603 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-13 21:28:47,604 - main - INFO -   Data source: yahoo
+2025-04-13 21:28:47,604 - main - INFO -   Model type: lstm
+2025-04-13 21:28:47,604 - main - INFO -   Use Spark: False
+2025-04-13 21:28:47,605 - main - INFO - Starting data collection
+2025-04-13 21:28:47,605 - main - INFO - Using Yahoo Finance as data source
+2025-04-13 21:28:47,606 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 21:28:47,606 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 21:28:47,606 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 21:29:28,045 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-13 21:29:28,046 - main - INFO - Collected stock data for AAPL
+2025-04-13 21:29:28,046 - stock_data - INFO - Collecting stock data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-13 21:29:28,046 - stock_data_collector - INFO - Collecting data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-13 21:30:08,739 - stock_data_collector - WARNING - No data found for MSFT between 2010-01-01 and 2023-12-31
+2025-04-13 21:30:08,740 - main - INFO - Collected stock data for MSFT
+2025-04-13 21:30:08,740 - stock_data - INFO - Collecting stock data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-13 21:30:08,741 - stock_data_collector - INFO - Collecting data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-13 21:30:31,347 - real_time_system - INFO - Configuration:
+2025-04-13 21:30:31,348 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 21:30:31,348 - real_time_system - INFO -   Data source: yahoo
+2025-04-13 21:30:31,348 - real_time_system - INFO -   Use Kafka: True
+2025-04-13 21:30:31,348 - real_time_system - INFO -   Model type: all
+2025-04-13 21:30:31,348 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-13 21:30:31,349 - real_time_system - INFO -   Use MongoDB: True
+2025-04-13 21:30:31,349 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-13 21:30:31,349 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-13 21:30:31,350 - real_time_system - INFO - Starting stock data collector
+2025-04-13 21:30:31,350 - real_time_system - INFO - Starting sentiment data collector
+2025-04-13 21:30:31,350 - sentiment_data - INFO - SentimentDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:31,351 - real_time_system - INFO - Starting economic data collector
+2025-04-13 21:30:31,351 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-13 21:30:31,351 - real_time_system - INFO - Starting real-time predictor
+2025-04-13 21:30:31,351 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:31,351 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-13 21:30:31,352 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:31,352 - real_time_system - INFO - Economic collection iteration 1
+2025-04-13 21:30:31,353 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:31,354 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_213031.txt
+2025-04-13 21:30:31,355 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:30:31,355 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_213031.txt
+2025-04-13 21:30:31,355 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:31,356 - real_time_system - INFO - Collected economic data
+2025-04-13 21:30:31,356 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-13 21:30:31,357 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_213031.txt
+2025-04-13 21:30:31,357 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:30:31,358 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:31,359 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_213031.txt
+2025-04-13 21:30:31,360 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:30:31,360 - real_time_predictor - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 21:30:31,360 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:30:31,361 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 21:30:31,361 - real_time_predictor - ERROR - Error loading LSTM model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,361 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 21:30:31,362 - real_time_predictor - ERROR - Error loading Ensemble model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,362 - lstm_model - INFO - LSTM model initialized for MSFT with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 21:30:31,362 - real_time_predictor - ERROR - Error loading LSTM model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,363 - ensemble_model - INFO - Ensemble model initialized for MSFT - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 21:30:31,363 - real_time_predictor - ERROR - Error loading Ensemble model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,363 - lstm_model - INFO - LSTM model initialized for GOOG with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 21:30:31,363 - real_time_predictor - ERROR - Error loading LSTM model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,364 - ensemble_model - INFO - Ensemble model initialized for GOOG - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 21:30:31,364 - real_time_predictor - ERROR - Error loading Ensemble model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 21:30:31,364 - real_time_predictor - INFO - Loaded models for 0 tickers
+2025-04-13 21:30:31,365 - real_time_predictor - INFO - RealTimePredictor initialized with model_type=all, prediction_horizon=5
+2025-04-13 21:30:33,378 - stock_data_collector - ERROR - Failed to initialize Kafka producer: NoBrokersAvailable
+2025-04-13 21:30:33,379 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 21:30:33,379 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:30:33,379 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:30:33,394 - kafka_handler - ERROR - Failed to create Kafka consumer for topics ['stock-data', 'sentiment-data', 'economic-data']: NoBrokersAvailable
+2025-04-13 21:30:33,395 - real_time_predictor - ERROR - Failed to create Kafka consumer
+2025-04-13 21:30:33,395 - real_time_system - ERROR - Failed to start real-time predictor
+2025-04-13 21:30:47,810 - real_time_system - INFO - Configuration:
+2025-04-13 21:30:47,811 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 21:30:47,811 - real_time_system - INFO -   Data source: yahoo
+2025-04-13 21:30:47,811 - real_time_system - INFO -   Use Kafka: False
+2025-04-13 21:30:47,811 - real_time_system - INFO -   Model type: all
+2025-04-13 21:30:47,811 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-13 21:30:47,812 - real_time_system - INFO -   Use MongoDB: False
+2025-04-13 21:30:47,812 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-13 21:30:47,812 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-13 21:30:47,813 - real_time_system - INFO - Starting stock data collector
+2025-04-13 21:30:47,813 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 21:30:47,814 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:30:47,814 - real_time_system - INFO - Starting sentiment data collector
+2025-04-13 21:30:47,814 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:30:47,814 - sentiment_data - INFO - SentimentDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:47,814 - real_time_system - INFO - Starting economic data collector
+2025-04-13 21:30:47,814 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-13 21:30:47,815 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-13 21:30:47,815 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:47,815 - real_time_system - INFO - Economic collection iteration 1
+2025-04-13 21:30:47,815 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:47,816 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:47,817 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_213047.txt
+2025-04-13 21:30:47,817 - real_time_system - INFO - Collected economic data
+2025-04-13 21:30:47,817 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-13 21:30:47,817 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_213047.txt
+2025-04-13 21:30:47,818 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:30:47,818 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:47,819 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_213047.txt
+2025-04-13 21:30:47,820 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:30:47,820 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:47,821 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_213047.txt
+2025-04-13 21:30:47,821 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:30:47,822 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:30:49,301 - stock_data_collector - WARNING - No data found for GOOG between 2010-01-01 and 2023-12-31
+2025-04-13 21:30:49,301 - main - INFO - Collected stock data for GOOG
+2025-04-13 21:30:49,302 - sentiment_data - INFO - SentimentDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:49,302 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:49,303 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_213049.txt
+2025-04-13 21:30:49,303 - main - INFO - Collected sentiment data for AAPL
+2025-04-13 21:30:49,304 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:49,305 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_213049.txt
+2025-04-13 21:30:49,305 - main - INFO - Collected sentiment data for MSFT
+2025-04-13 21:30:49,305 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:49,306 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_213049.txt
+2025-04-13 21:30:49,306 - main - INFO - Collected sentiment data for GOOG
+2025-04-13 21:30:49,307 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 21:30:49,307 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:30:49,308 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_213049.txt
+2025-04-13 21:30:49,308 - main - INFO - Collected economic data
+2025-04-13 21:30:49,308 - main - INFO - Data collection completed
+2025-04-13 21:30:49,308 - main - INFO - Starting data processing
+2025-04-13 21:30:49,309 - data_processor - INFO - Data processor initialized (use_spark=False)
+2025-04-13 21:30:49,310 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\AAPL_stock_data.csv
+2025-04-13 21:30:49,310 - main - ERROR - Failed to process data for AAPL
+2025-04-13 21:30:49,310 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\MSFT_stock_data.csv
+2025-04-13 21:30:49,310 - main - ERROR - Failed to process data for MSFT
+2025-04-13 21:30:49,311 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\GOOG_stock_data.csv
+2025-04-13 21:30:49,311 - main - ERROR - Failed to process data for GOOG
+2025-04-13 21:30:49,311 - main - INFO - Data processing completed
+2025-04-13 21:30:49,311 - main - INFO - Starting model training
+2025-04-13 21:30:49,312 - main - ERROR - Features file not found for AAPL
+2025-04-13 21:30:49,312 - main - ERROR - Features file not found for MSFT
+2025-04-13 21:30:49,313 - main - ERROR - Features file not found for GOOG
+2025-04-13 21:30:49,313 - main - INFO - Model training completed
+2025-04-13 21:30:49,313 - main - INFO - Stock market prediction system execution completed
+2025-04-13 21:31:13,880 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:31:13,880 - real_time_system - INFO - Stock collection iteration 1
+2025-04-13 21:31:13,880 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:31:13,881 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:31:28,136 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:31:28,136 - real_time_system - INFO - Stock collection iteration 1
+2025-04-13 21:31:28,137 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:31:28,137 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:31:54,426 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:31:54,427 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:31:54,427 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:31:54,427 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:32:08,433 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:32:08,434 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:32:08,434 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:32:08,434 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:32:34,892 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:32:34,893 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:32:34,893 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:32:34,893 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:32:48,732 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:32:48,733 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:32:48,733 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:32:48,734 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:33:15,367 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:33:15,368 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:33:15,368 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:33:29,031 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:33:29,032 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:33:29,032 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:34:15,982 - real_time_system - INFO - Stock collection iteration 2
+2025-04-13 21:34:15,982 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:34:15,982 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:34:29,698 - real_time_system - INFO - Stock collection iteration 2
+2025-04-13 21:34:29,698 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:34:29,699 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:34:56,563 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:34:56,564 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:34:56,564 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:34:56,565 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:35:10,021 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:35:10,022 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:35:10,022 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:35:10,023 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:35:34,325 - real_time_system - INFO - Sentiment collection iteration 2
+2025-04-13 21:35:34,325 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:34,326 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_213534.txt
+2025-04-13 21:35:34,327 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:35:34,327 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:34,328 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_213534.txt
+2025-04-13 21:35:34,328 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:35:34,328 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:34,329 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_213534.txt
+2025-04-13 21:35:34,330 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:35:34,330 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:35:37,215 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:35:37,216 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:35:37,216 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:35:37,217 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:35:50,325 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:35:50,326 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:35:50,326 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:35:50,326 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:35:50,875 - real_time_system - INFO - Sentiment collection iteration 2
+2025-04-13 21:35:50,875 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:50,876 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_213550.txt
+2025-04-13 21:35:50,878 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:35:50,878 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:50,879 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_213550.txt
+2025-04-13 21:35:50,879 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:35:50,879 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:35:50,879 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_213550.txt
+2025-04-13 21:35:50,879 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:35:50,880 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:36:17,615 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:36:17,616 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:36:17,617 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:36:30,631 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:36:30,632 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:36:30,632 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:37:18,249 - real_time_system - INFO - Stock collection iteration 3
+2025-04-13 21:37:18,249 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:37:18,250 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:37:31,237 - real_time_system - INFO - Stock collection iteration 3
+2025-04-13 21:37:31,237 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:37:31,238 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:37:58,742 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:37:58,743 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:37:58,743 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:37:58,743 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:38:11,916 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:38:11,917 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:38:11,917 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:38:11,917 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:38:39,038 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:38:39,039 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:38:39,039 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:38:39,039 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:38:52,493 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:38:52,493 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:38:52,493 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:38:52,494 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:39:19,534 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:39:19,535 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:39:19,535 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:39:32,789 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:39:32,789 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:39:32,790 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:40:20,082 - real_time_system - INFO - Stock collection iteration 4
+2025-04-13 21:40:20,082 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:40:20,082 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:40:33,414 - real_time_system - INFO - Stock collection iteration 4
+2025-04-13 21:40:33,414 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:40:33,414 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:40:37,173 - real_time_system - INFO - Sentiment collection iteration 3
+2025-04-13 21:40:37,173 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:37,174 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_214037.txt
+2025-04-13 21:40:37,175 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:40:37,175 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:37,176 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_214037.txt
+2025-04-13 21:40:37,177 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:40:37,177 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:37,178 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_214037.txt
+2025-04-13 21:40:37,178 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:40:37,178 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:40:53,929 - real_time_system - INFO - Sentiment collection iteration 3
+2025-04-13 21:40:53,929 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:53,930 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_214053.txt
+2025-04-13 21:40:53,931 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:40:53,931 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:53,932 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_214053.txt
+2025-04-13 21:40:53,932 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:40:53,932 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:40:53,933 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_214053.txt
+2025-04-13 21:40:53,933 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:40:53,934 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:41:00,667 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:41:00,668 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:41:00,668 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:41:00,668 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:41:13,726 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:41:13,727 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:41:13,727 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:41:13,727 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:41:41,083 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:41:41,084 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:41:41,084 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:41:41,084 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:41:54,142 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:41:54,143 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:41:54,143 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:41:54,143 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:42:21,476 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:42:21,477 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:42:21,477 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:42:34,808 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:42:34,809 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:42:34,809 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:43:22,073 - real_time_system - INFO - Stock collection iteration 5
+2025-04-13 21:43:22,073 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:43:22,074 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:43:35,413 - real_time_system - INFO - Stock collection iteration 5
+2025-04-13 21:43:35,413 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:43:35,414 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:44:02,731 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:44:02,732 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:44:02,732 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:44:02,732 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:44:15,799 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:44:15,800 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:44:15,800 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:44:15,800 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:44:43,124 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:44:43,125 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:44:43,125 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:44:43,125 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:44:56,099 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:44:56,100 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:44:56,100 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:44:56,100 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:45:23,769 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:45:23,770 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:45:23,770 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:45:36,398 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:45:36,398 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:45:36,398 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:45:40,005 - real_time_system - INFO - Sentiment collection iteration 4
+2025-04-13 21:45:40,005 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:40,006 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_214540.txt
+2025-04-13 21:45:40,007 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:45:40,007 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:40,008 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_214540.txt
+2025-04-13 21:45:40,009 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:45:40,009 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:40,009 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_214540.txt
+2025-04-13 21:45:40,010 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:45:40,010 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:45:56,816 - real_time_system - INFO - Sentiment collection iteration 4
+2025-04-13 21:45:56,816 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:56,818 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_214556.txt
+2025-04-13 21:45:56,818 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:45:56,818 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:56,819 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_214556.txt
+2025-04-13 21:45:56,820 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:45:56,820 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:45:56,821 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_214556.txt
+2025-04-13 21:45:56,821 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:45:56,821 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:46:24,363 - real_time_system - INFO - Stock collection iteration 6
+2025-04-13 21:46:24,363 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:46:24,364 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:46:36,992 - real_time_system - INFO - Stock collection iteration 6
+2025-04-13 21:46:36,992 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:46:36,992 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:47:04,740 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:47:04,741 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:47:04,741 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:47:04,741 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:47:17,376 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:47:17,377 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:47:17,377 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:47:17,377 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:47:45,046 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:47:45,047 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:47:45,047 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:47:45,048 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:47:57,671 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:47:57,672 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:47:57,672 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:47:57,672 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:48:25,710 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:48:25,711 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:48:25,711 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:48:38,078 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:48:38,079 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:48:38,079 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:49:26,273 - real_time_system - INFO - Stock collection iteration 7
+2025-04-13 21:49:26,273 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:49:26,273 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:49:38,712 - real_time_system - INFO - Stock collection iteration 7
+2025-04-13 21:49:38,712 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:49:38,713 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:50:06,923 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:50:06,924 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:50:06,924 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:50:06,924 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:50:19,015 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:50:19,016 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:50:19,016 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:50:19,016 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:50:42,898 - real_time_system - INFO - Sentiment collection iteration 5
+2025-04-13 21:50:42,898 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:42,899 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_215042.txt
+2025-04-13 21:50:42,900 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:50:42,900 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:42,901 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_215042.txt
+2025-04-13 21:50:42,901 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:50:42,901 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:42,902 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_215042.txt
+2025-04-13 21:50:42,903 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:50:42,903 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:50:47,233 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:50:47,234 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:50:47,234 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:50:47,235 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:50:59,506 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:50:59,507 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:50:59,507 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:50:59,507 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:50:59,865 - real_time_system - INFO - Sentiment collection iteration 5
+2025-04-13 21:50:59,865 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:59,866 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_215059.txt
+2025-04-13 21:50:59,867 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:50:59,867 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:59,868 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_215059.txt
+2025-04-13 21:50:59,869 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:50:59,869 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:50:59,869 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_215059.txt
+2025-04-13 21:50:59,870 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:50:59,870 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:51:27,734 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:51:27,734 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:51:27,734 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:51:40,084 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:51:40,085 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:51:40,085 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:52:28,329 - real_time_system - INFO - Stock collection iteration 8
+2025-04-13 21:52:28,329 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:52:28,329 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:52:40,646 - real_time_system - INFO - Stock collection iteration 8
+2025-04-13 21:52:40,647 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:52:40,647 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:53:08,721 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:53:08,722 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:53:08,722 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:53:08,722 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:53:20,964 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:53:20,964 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:53:20,964 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:53:20,965 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:53:49,111 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:53:49,112 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:53:49,112 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:53:49,112 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:54:01,654 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:54:01,655 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:54:01,655 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:54:01,655 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:54:29,494 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:54:29,494 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:54:29,495 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:54:41,980 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:54:41,980 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:54:41,980 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:55:30,085 - real_time_system - INFO - Stock collection iteration 9
+2025-04-13 21:55:30,085 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:55:30,085 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:55:42,589 - real_time_system - INFO - Stock collection iteration 9
+2025-04-13 21:55:42,589 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:55:42,591 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:55:46,073 - real_time_system - INFO - Sentiment collection iteration 6
+2025-04-13 21:55:46,073 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:55:46,074 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_215546.txt
+2025-04-13 21:55:46,075 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:55:46,075 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:55:46,076 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_215546.txt
+2025-04-13 21:55:46,077 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:55:46,077 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:55:46,078 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_215546.txt
+2025-04-13 21:55:46,078 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:55:46,078 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:56:02,903 - real_time_system - INFO - Sentiment collection iteration 6
+2025-04-13 21:56:02,903 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:56:02,904 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_215602.txt
+2025-04-13 21:56:02,904 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 21:56:02,905 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:56:02,905 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_215602.txt
+2025-04-13 21:56:02,906 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 21:56:02,906 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 21:56:02,907 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_215602.txt
+2025-04-13 21:56:02,907 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 21:56:02,907 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 21:56:10,508 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:56:10,509 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:56:10,509 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:56:10,509 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:56:22,985 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:56:22,986 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:56:22,986 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:56:22,986 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:56:51,182 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:56:51,182 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:56:51,182 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:56:51,183 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:57:03,291 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:57:03,291 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:57:03,292 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:57:03,292 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 21:57:31,590 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:57:31,590 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:57:31,590 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:57:43,762 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 21:57:43,763 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 21:57:43,763 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 21:58:32,176 - real_time_system - INFO - Stock collection iteration 10
+2025-04-13 21:58:32,176 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:58:32,177 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:58:44,355 - real_time_system - INFO - Stock collection iteration 10
+2025-04-13 21:58:44,355 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 21:58:44,356 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 21:59:12,757 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:59:12,758 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:59:12,758 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:59:12,758 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:59:24,672 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 21:59:24,672 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 21:59:24,673 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 21:59:24,673 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 21:59:53,150 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 21:59:53,151 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 21:59:53,151 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 21:59:53,151 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:00:04,980 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:00:04,981 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:00:04,981 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:00:04,981 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:00:33,881 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:00:33,882 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:00:33,883 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:00:45,292 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:00:45,293 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:00:45,293 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:00:48,878 - real_time_system - INFO - Sentiment collection iteration 7
+2025-04-13 22:00:48,878 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:00:48,879 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_220048.txt
+2025-04-13 22:00:48,880 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:00:48,880 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:00:48,881 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_220048.txt
+2025-04-13 22:00:48,881 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:00:48,882 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:00:48,882 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_220048.txt
+2025-04-13 22:00:48,883 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:00:48,883 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:01:05,798 - real_time_system - INFO - Sentiment collection iteration 7
+2025-04-13 22:01:05,798 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:01:05,799 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_220105.txt
+2025-04-13 22:01:05,799 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:01:05,799 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:01:05,800 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_220105.txt
+2025-04-13 22:01:05,801 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:01:05,801 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:01:05,802 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_220105.txt
+2025-04-13 22:01:05,802 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:01:05,802 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:01:34,440 - real_time_system - INFO - Stock collection iteration 11
+2025-04-13 22:01:34,440 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:01:34,440 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:01:45,859 - real_time_system - INFO - Stock collection iteration 11
+2025-04-13 22:01:45,859 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:01:45,861 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:02:15,048 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:02:15,049 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:02:15,049 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:02:15,049 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:02:26,185 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:02:26,185 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:02:26,186 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:02:26,186 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:02:55,357 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:02:55,357 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:02:55,357 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:02:55,358 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:03:06,516 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:03:06,517 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:03:06,517 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:03:06,517 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:03:35,929 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:03:35,930 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:03:35,930 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:03:46,849 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:03:46,849 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:03:46,849 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:04:36,529 - real_time_system - INFO - Stock collection iteration 12
+2025-04-13 22:04:36,529 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:04:36,530 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:04:47,465 - real_time_system - INFO - Stock collection iteration 12
+2025-04-13 22:04:47,465 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:04:47,465 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:05:17,179 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:05:17,180 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:05:17,181 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:05:17,181 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:05:27,799 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:05:27,799 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:05:27,800 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:05:27,800 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:05:51,861 - real_time_system - INFO - Sentiment collection iteration 8
+2025-04-13 22:05:51,861 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:05:51,862 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_220551.txt
+2025-04-13 22:05:51,863 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:05:51,863 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:05:51,864 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_220551.txt
+2025-04-13 22:05:51,864 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:05:51,865 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:05:51,865 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_220551.txt
+2025-04-13 22:05:51,866 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:05:51,866 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:05:57,856 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:05:57,857 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:05:57,857 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:05:57,858 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:06:08,094 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:06:08,094 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:06:08,094 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:06:08,095 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:06:08,780 - real_time_system - INFO - Sentiment collection iteration 8
+2025-04-13 22:06:08,780 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:06:08,781 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_220608.txt
+2025-04-13 22:06:08,782 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:06:08,782 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:06:08,784 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_220608.txt
+2025-04-13 22:06:08,784 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:06:08,784 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:06:08,785 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_220608.txt
+2025-04-13 22:06:08,786 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:06:08,786 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:06:38,380 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:06:38,381 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:06:38,381 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:06:48,488 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:06:48,488 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:06:48,489 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:07:38,985 - real_time_system - INFO - Stock collection iteration 13
+2025-04-13 22:07:38,985 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:07:38,986 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:07:49,064 - real_time_system - INFO - Stock collection iteration 13
+2025-04-13 22:07:49,064 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:07:49,065 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:08:19,798 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:08:19,799 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:08:19,799 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:08:19,799 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:08:29,377 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:08:29,378 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:08:29,378 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:08:29,378 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:09:00,105 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:09:00,105 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:09:00,106 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:09:00,106 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:09:10,018 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:09:10,019 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:09:10,019 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:09:10,019 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:09:40,614 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:09:40,615 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:09:40,615 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:09:50,426 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:09:50,427 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:09:50,427 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:10:41,201 - real_time_system - INFO - Stock collection iteration 14
+2025-04-13 22:10:41,201 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:10:41,202 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:10:50,973 - real_time_system - INFO - Stock collection iteration 14
+2025-04-13 22:10:50,973 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:10:50,974 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:10:54,685 - real_time_system - INFO - Sentiment collection iteration 9
+2025-04-13 22:10:54,685 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:10:54,686 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_221054.txt
+2025-04-13 22:10:54,687 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:10:54,687 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:10:54,688 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_221054.txt
+2025-04-13 22:10:54,689 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:10:54,689 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:10:54,690 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_221054.txt
+2025-04-13 22:10:54,690 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:10:54,691 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:11:11,704 - real_time_system - INFO - Sentiment collection iteration 9
+2025-04-13 22:11:11,704 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:11:11,705 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_221111.txt
+2025-04-13 22:11:11,706 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:11:11,706 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:11:11,708 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_221111.txt
+2025-04-13 22:11:11,708 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:11:11,708 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:11:11,709 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_221111.txt
+2025-04-13 22:11:11,710 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:11:11,710 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:11:21,844 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:11:21,845 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:11:21,845 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:11:21,845 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:11:31,275 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:11:31,276 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:11:31,276 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:11:31,276 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:12:02,262 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:12:02,263 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:12:02,264 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:12:02,264 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:12:11,668 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:12:11,668 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:12:11,668 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:12:11,668 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:12:43,067 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:12:43,068 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:12:43,068 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:12:51,983 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:12:51,984 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:12:51,984 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:13:43,697 - real_time_system - INFO - Stock collection iteration 15
+2025-04-13 22:13:43,697 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:13:43,697 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:13:52,604 - real_time_system - INFO - Stock collection iteration 15
+2025-04-13 22:13:52,604 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:13:52,604 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:14:15,892 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:14:24,429 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:14:24,430 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:14:24,430 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:14:24,431 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:14:32,983 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-13 22:14:32,984 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-13 22:14:32,984 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-13 22:14:32,984 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-13 22:14:44,669 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:14:51,719 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:15:04,815 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:15:04,815 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:15:04,817 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:15:04,817 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:15:13,300 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-13 22:15:13,300 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-13 22:15:13,301 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-13 22:15:13,301 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-13 22:15:37,038 - visualization_app - ERROR - Error updating recent data table: 'GOOGL'
+2025-04-13 22:15:37,039 - visualization_app - ERROR - Error updating price chart: 'GOOGL'
+2025-04-13 22:15:37,041 - visualization_app - ERROR - Error updating indicator chart: 'GOOGL'
+2025-04-13 22:15:37,068 - visualization_app - INFO - Collecting historical data for MSFT
+2025-04-13 22:15:37,071 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-13 22:15:37,111 - stock_data_collector - WARNING - No data found for AAPL
+2025-04-13 22:15:37,112 - visualization_app - ERROR - Error updating recent data table: 'MSFT'
+2025-04-13 22:15:37,112 - visualization_app - ERROR - Error updating indicator chart: 'MSFT'
+2025-04-13 22:15:37,113 - visualization_app - ERROR - Error updating price chart: 'MSFT'
+2025-04-13 22:15:37,625 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-13 22:15:38,886 - stock_data_collector - ERROR - Error collecting data for MSFT: 'MSFT'
+2025-04-13 22:15:38,886 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-13 22:15:45,128 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:15:45,129 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:15:45,129 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:15:53,725 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-13 22:15:53,727 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-13 22:15:53,727 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-13 22:15:57,588 - real_time_system - INFO - Sentiment collection iteration 10
+2025-04-13 22:15:57,588 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:15:57,590 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_221557.txt
+2025-04-13 22:15:57,591 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:15:57,591 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:15:57,592 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_221557.txt
+2025-04-13 22:15:57,592 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:15:57,592 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:15:57,593 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_221557.txt
+2025-04-13 22:15:57,593 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:15:57,594 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:16:14,623 - real_time_system - INFO - Sentiment collection iteration 10
+2025-04-13 22:16:14,624 - sentiment_data - INFO - Sentiment data collection for AAPL is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:16:14,625 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\AAPL_info_20250413_221614.txt
+2025-04-13 22:16:14,626 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-13 22:16:14,626 - sentiment_data - INFO - Sentiment data collection for MSFT is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:16:14,627 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\MSFT_info_20250413_221614.txt
+2025-04-13 22:16:14,627 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-13 22:16:14,627 - sentiment_data - INFO - Sentiment data collection for GOOG is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:16:14,628 - sentiment_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\GOOG_info_20250413_221614.txt
+2025-04-13 22:16:14,629 - real_time_system - INFO - Collected sentiment data for GOOG
+2025-04-13 22:16:14,629 - real_time_system - INFO - Sleeping for 300 seconds
+2025-04-13 22:16:17,379 - stock_data_collector - ERROR - Error collecting data for GOOGL: 'GOOGL'
+2025-04-13 22:16:17,379 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-13 22:16:17,456 - stock_data_collector - ERROR - Error collecting data for AMZN: 'AMZN'
+2025-04-13 22:16:17,456 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-13 22:16:17,488 - stock_data_collector - ERROR - Error collecting data for META: 'META'
+2025-04-13 22:16:17,488 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-13 22:16:18,018 - stock_data_collector - ERROR - Error collecting data for TSLA: 'TSLA'
+2025-04-13 22:16:18,019 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-13 22:16:19,286 - stock_data_collector - ERROR - Error collecting data for NVDA: 'NVDA'
+2025-04-13 22:16:19,287 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-13 22:16:45,762 - real_time_system - INFO - Stock collection iteration 16
+2025-04-13 22:16:45,762 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:16:45,763 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:16:54,367 - real_time_system - INFO - Stock collection iteration 16
+2025-04-13 22:16:54,367 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-13 22:16:54,368 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-13 22:16:57,782 - stock_data_collector - ERROR - Error collecting data for JPM: 'JPM'
+2025-04-13 22:16:57,783 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-13 22:16:57,798 - stock_data_collector - ERROR - Error collecting data for V: 'V'
+2025-04-13 22:16:57,798 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-13 22:16:58,327 - stock_data_collector - ERROR - Error collecting data for WMT: 'WMT'
+2025-04-13 22:27:33,699 - main - INFO - Configuration:
+2025-04-13 22:27:33,699 - main - INFO -   Tickers: ['AAPL']
+2025-04-13 22:27:33,699 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-13 22:27:33,699 - main - INFO -   Data source: yahoo
+2025-04-13 22:27:33,699 - main - INFO -   Model type: lstm
+2025-04-13 22:27:33,699 - main - INFO -   Use Spark: False
+2025-04-13 22:27:33,701 - main - INFO - Starting data collection
+2025-04-13 22:27:33,702 - main - INFO - Using Yahoo Finance as data source
+2025-04-13 22:27:33,702 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 22:27:33,702 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 22:27:33,702 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 22:27:50,788 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 22:27:50,789 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 22:27:50,789 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 22:28:14,559 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-13 22:28:14,560 - main - INFO - Collected stock data for AAPL
+2025-04-13 22:28:14,560 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 22:28:14,560 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 22:28:14,560 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 22:29:15,388 - yahoo_sentiment - ERROR - Error fetching news for AAPL: Expecting value: line 1 column 1 (char 0)
+2025-04-13 22:29:15,388 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-13 22:29:15,389 - yahoo_sentiment - WARNING - No sentiment data found for AAPL. Generating simulated data.
+2025-04-13 22:29:15,389 - yahoo_sentiment - INFO - Generating simulated sentiment data for AAPL
+2025-04-13 22:29:15,396 - yahoo_sentiment - INFO - Saved sentiment data to X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\simulated_AAPL_sentiment_20250413_222915.csv
+2025-04-13 22:29:15,397 - yahoo_sentiment - INFO - Saved sentiment data to X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\simulated_AAPL_sentiment_20250413_222915.json
+2025-04-13 22:29:15,398 - sentiment_data - INFO - Collected 18 sentiment records for AAPL
+2025-04-13 22:29:39,001 - yahoo_sentiment - ERROR - Error fetching news for AAPL: Expecting value: line 1 column 1 (char 0)
+2025-04-13 22:29:39,001 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-13 22:29:39,002 - yahoo_sentiment - WARNING - No sentiment data found for AAPL. Generating simulated data.
+2025-04-13 22:29:39,002 - yahoo_sentiment - INFO - Generating simulated sentiment data for AAPL
+2025-04-13 22:29:39,156 - yahoo_sentiment - INFO - Saved sentiment data to X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\simulated_AAPL_sentiment_20250413_222939.csv
+2025-04-13 22:29:39,189 - yahoo_sentiment - INFO - Saved sentiment data to X:\VS\Lab\Assignment 2 big datra\data\raw\sentiment\simulated_AAPL_sentiment_20250413_222939.json
+2025-04-13 22:29:39,192 - sentiment_data - INFO - Collected 16899 sentiment records for AAPL
+2025-04-13 22:29:39,194 - main - INFO - Collected sentiment data for AAPL
+2025-04-13 22:29:39,194 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 22:29:39,194 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:29:39,196 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_222939.txt
+2025-04-13 22:29:39,196 - main - INFO - Collected economic data
+2025-04-13 22:29:39,197 - main - INFO - Data collection completed
+2025-04-13 22:29:39,197 - main - INFO - Starting data processing
+2025-04-13 22:29:39,198 - data_processor - INFO - Data processor initialized (use_spark=False)
+2025-04-13 22:29:39,198 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\AAPL_stock_data.csv
+2025-04-13 22:29:39,198 - main - ERROR - Failed to process data for AAPL
+2025-04-13 22:29:39,199 - main - INFO - Data processing completed
+2025-04-13 22:29:39,199 - main - INFO - Starting model training
+2025-04-13 22:29:39,200 - main - ERROR - Features file not found for AAPL
+2025-04-13 22:29:39,200 - main - INFO - Model training completed
+2025-04-13 22:29:39,200 - main - INFO - Stock market prediction system execution completed
+2025-04-13 22:29:46,855 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:29:53,308 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:43:22,119 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:44:11,206 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:45:00,835 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:45:36,767 - main - INFO - Configuration:
+2025-04-13 22:45:36,767 - main - INFO -   Tickers: ['AAPL']
+2025-04-13 22:45:36,767 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-13 22:45:36,767 - main - INFO -   Data source: yahoo
+2025-04-13 22:45:36,768 - main - INFO -   Model type: lstm
+2025-04-13 22:45:36,768 - main - INFO -   Use Spark: False
+2025-04-13 22:45:36,769 - main - INFO - Starting data collection
+2025-04-13 22:45:36,769 - main - INFO - Using Yahoo Finance as data source
+2025-04-13 22:45:36,769 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 22:45:36,770 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 22:45:36,770 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 22:45:49,949 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 22:45:49,949 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 22:45:49,949 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 22:46:09,838 - visualization_app - INFO - Collecting historical data for AAPL
+2025-04-13 22:46:09,839 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-13 22:46:17,085 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-13 22:46:17,086 - main - INFO - Collected stock data for AAPL
+2025-04-13 22:46:17,086 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 22:46:17,086 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 22:46:17,086 - main - ERROR - Error collecting sentiment data: SentimentDataCollector.collect_sentiment_data() got an unexpected keyword argument 'start_date'
+2025-04-13 22:46:17,087 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 22:46:17,087 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 22:46:17,088 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_224617.txt
+2025-04-13 22:46:17,088 - main - INFO - Collected economic data
+2025-04-13 22:46:17,088 - main - INFO - Data collection completed
+2025-04-13 22:46:17,088 - main - INFO - Starting data processing
+2025-04-13 22:46:17,089 - data_processor - INFO - Data processor initialized (use_spark=False)
+2025-04-13 22:46:17,089 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\AAPL_stock_data.csv
+2025-04-13 22:46:17,090 - main - ERROR - Failed to process data for AAPL
+2025-04-13 22:46:17,090 - main - INFO - Data processing completed
+2025-04-13 22:46:17,090 - main - INFO - Starting model training
+2025-04-13 22:46:17,091 - main - ERROR - Features file not found for AAPL
+2025-04-13 22:46:17,091 - main - INFO - Model training completed
+2025-04-13 22:46:17,091 - main - INFO - Stock market prediction system execution completed
+2025-04-13 22:46:49,025 - stock_data_collector - WARNING - No data found for AAPL
+2025-04-13 22:46:49,535 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-13 22:46:50,230 - stock_data_collector - ERROR - Error collecting data for MSFT: 'MSFT'
+2025-04-13 22:46:50,231 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-13 22:46:56,651 - stock_data_collector - ERROR - Error collecting data for GOOGL: 'GOOGL'
+2025-04-13 22:46:56,652 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-13 22:46:56,727 - stock_data_collector - ERROR - Error collecting data for AMZN: 'AMZN'
+2025-04-13 22:46:56,728 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-13 22:47:15,198 - yahoo_sentiment - WARNING - Error getting news from yfinance: Expecting value: line 1 column 1 (char 0). Using simulated data.
+2025-04-13 22:47:15,199 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-13 22:47:15,199 - yahoo_sentiment - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-13 22:47:15,200 - sentiment_data - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-13 22:47:24,793 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 22:47:24,793 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 22:47:24,794 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 22:47:29,354 - stock_data_collector - ERROR - Error collecting data for META: 'META'
+2025-04-13 22:47:29,354 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-13 22:47:29,372 - stock_data_collector - ERROR - Error collecting data for TSLA: 'TSLA'
+2025-04-13 22:47:29,373 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-13 22:47:29,462 - stock_data_collector - ERROR - Error collecting data for NVDA: 'NVDA'
+2025-04-13 22:47:29,463 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-13 22:47:29,868 - stock_data_collector - ERROR - Error collecting data for JPM: 'JPM'
+2025-04-13 22:47:29,868 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-13 22:47:30,555 - stock_data_collector - ERROR - Error collecting data for V: 'V'
+2025-04-13 22:47:30,556 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-13 22:47:37,212 - stock_data_collector - ERROR - Error collecting data for WMT: 'WMT'
+2025-04-13 22:47:46,139 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:47:52,925 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 22:48:09,677 - visualization_app - ERROR - Error updating recent data table: 'AAPL'
+2025-04-13 22:48:09,677 - visualization_app - ERROR - Error updating price chart: 'AAPL'
+2025-04-13 22:48:09,678 - visualization_app - ERROR - Error updating indicator chart: 'AAPL'
+2025-04-13 22:48:49,349 - yahoo_sentiment - WARNING - Error getting news from yfinance: Expecting value: line 1 column 1 (char 0). Using simulated data.
+2025-04-13 22:48:49,350 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-13 22:48:49,351 - yahoo_sentiment - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-13 22:48:49,351 - sentiment_data - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-13 23:03:54,654 - main - INFO - Configuration:
+2025-04-13 23:03:54,654 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 23:03:54,654 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-13 23:03:54,654 - main - INFO -   Data source: yahoo
+2025-04-13 23:03:54,654 - main - INFO -   Model type: lstm
+2025-04-13 23:03:54,655 - main - INFO -   Use Spark: False
+2025-04-13 23:03:54,656 - main - INFO - Starting data collection
+2025-04-13 23:03:54,656 - main - INFO - Using Yahoo Finance as data source
+2025-04-13 23:03:54,656 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 23:03:54,656 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 23:03:54,656 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 23:04:35,529 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-13 23:04:35,537 - main - INFO - Collected stock data for AAPL
+2025-04-13 23:04:35,540 - stock_data - INFO - Collecting stock data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-13 23:04:35,541 - stock_data_collector - INFO - Collecting data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-13 23:05:15,934 - stock_data_collector - WARNING - No data found for MSFT between 2010-01-01 and 2023-12-31
+2025-04-13 23:05:15,935 - main - INFO - Collected stock data for MSFT
+2025-04-13 23:05:15,935 - stock_data - INFO - Collecting stock data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-13 23:05:15,935 - stock_data_collector - INFO - Collecting data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-13 23:05:56,600 - stock_data_collector - WARNING - No data found for GOOG between 2010-01-01 and 2023-12-31
+2025-04-13 23:05:56,600 - main - INFO - Collected stock data for GOOG
+2025-04-13 23:05:56,600 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 23:05:56,601 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 23:05:56,601 - main - ERROR - Error collecting sentiment data: SentimentDataCollector.collect_sentiment_data() got an unexpected keyword argument 'start_date'
+2025-04-13 23:05:56,602 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 23:05:56,602 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 23:05:56,603 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_230556.txt
+2025-04-13 23:05:56,603 - main - INFO - Collected economic data
+2025-04-13 23:05:56,603 - main - INFO - Data collection completed
+2025-04-13 23:05:56,603 - main - INFO - Starting data processing
+2025-04-13 23:05:56,604 - data_processor - INFO - Data processor initialized (use_spark=False)
+2025-04-13 23:05:56,604 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\AAPL_stock_data.csv
+2025-04-13 23:05:56,604 - main - ERROR - Failed to process data for AAPL
+2025-04-13 23:05:56,604 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\MSFT_stock_data.csv
+2025-04-13 23:05:56,604 - main - ERROR - Failed to process data for MSFT
+2025-04-13 23:05:56,605 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\GOOG_stock_data.csv
+2025-04-13 23:05:56,605 - main - ERROR - Failed to process data for GOOG
+2025-04-13 23:05:56,605 - main - INFO - Data processing completed
+2025-04-13 23:05:56,605 - main - INFO - Starting model training
+2025-04-13 23:05:56,606 - main - ERROR - Features file not found for AAPL
+2025-04-13 23:05:56,606 - main - ERROR - Features file not found for MSFT
+2025-04-13 23:05:56,606 - main - ERROR - Features file not found for GOOG
+2025-04-13 23:05:56,606 - main - INFO - Model training completed
+2025-04-13 23:05:56,606 - main - INFO - Stock market prediction system execution completed
+2025-04-13 23:06:01,183 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=1
+2025-04-13 23:07:29,956 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=1
+2025-04-13 23:08:12,686 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=1
+2025-04-13 23:08:12,686 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 23:31:03,917 - main - INFO - Configuration:
+2025-04-13 23:31:03,917 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 23:31:03,917 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-13 23:31:03,917 - main - INFO -   Data source: yahoo
+2025-04-13 23:31:03,917 - main - INFO -   Model type: lstm
+2025-04-13 23:31:03,917 - main - INFO -   Use Spark: True
+2025-04-13 23:31:03,918 - main - INFO - Starting data collection
+2025-04-13 23:31:03,918 - main - INFO - Using Yahoo Finance as data source
+2025-04-13 23:31:03,918 - stock_data - INFO - StockDataCollector initialized
+2025-04-13 23:31:03,919 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 23:31:03,919 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-13 23:31:08,601 - real_time_system - INFO - Configuration:
+2025-04-13 23:31:08,601 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-13 23:31:08,601 - real_time_system - INFO -   Data source: yahoo
+2025-04-13 23:31:08,601 - real_time_system - INFO -   Use Kafka: True
+2025-04-13 23:31:08,601 - real_time_system - INFO -   Model type: all
+2025-04-13 23:31:08,601 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-13 23:31:08,602 - real_time_system - INFO -   Use MongoDB: True
+2025-04-13 23:31:08,602 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-13 23:31:08,602 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-13 23:31:08,602 - real_time_system - INFO - Starting stock data collector
+2025-04-13 23:31:08,603 - real_time_system - INFO - Starting sentiment data collector
+2025-04-13 23:31:08,603 - yahoo_sentiment - INFO - Initialized Kafka handler for topic: sentiment-data
+2025-04-13 23:31:08,604 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 23:31:08,604 - real_time_system - INFO - Starting economic data collector
+2025-04-13 23:31:08,604 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 23:31:08,604 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-13 23:31:08,604 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-13 23:31:08,604 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 23:31:08,604 - real_time_system - INFO - Economic collection iteration 1
+2025-04-13 23:31:08,605 - real_time_system - INFO - Starting real-time predictor
+2025-04-13 23:31:08,606 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-13 23:31:08,606 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-13 23:31:08,607 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250413_233108.txt
+2025-04-13 23:31:08,608 - real_time_system - INFO - Collected economic data
+2025-04-13 23:31:08,608 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-13 23:31:08,614 - real_time_predictor - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 23:31:08,614 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 23:31:08,614 - real_time_predictor - ERROR - Error loading LSTM model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 23:31:08,615 - real_time_predictor - ERROR - Error loading Ensemble model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - lstm_model - INFO - LSTM model initialized for MSFT with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 23:31:08,615 - real_time_predictor - ERROR - Error loading LSTM model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - ensemble_model - INFO - Ensemble model initialized for MSFT - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 23:31:08,615 - real_time_predictor - ERROR - Error loading Ensemble model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - lstm_model - INFO - LSTM model initialized for GOOG with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-13 23:31:08,615 - real_time_predictor - ERROR - Error loading LSTM model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - ensemble_model - INFO - Ensemble model initialized for GOOG - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-13 23:31:08,615 - real_time_predictor - ERROR - Error loading Ensemble model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-13 23:31:08,615 - real_time_predictor - INFO - Loaded models for 0 tickers
+2025-04-13 23:31:08,615 - real_time_predictor - INFO - RealTimePredictor initialized with model_type=all, prediction_horizon=5
+2025-04-13 23:31:44,080 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-13 23:31:44,080 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-13 23:31:44,080 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-13 23:36:30,975 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 23:36:37,867 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 23:37:27,253 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 23:37:34,223 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-13 23:37:43,176 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction

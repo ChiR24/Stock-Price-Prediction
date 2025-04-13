@@ -1,0 +1,3 @@
+Sentiment data collection for AAPL was skipped. Only Yahoo Finance stock data is being used.
+Timestamp: 2025-04-13T22:00:48.879880
+Date range: None to None

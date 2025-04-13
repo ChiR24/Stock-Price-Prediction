@@ -1,0 +1,19 @@
+title,summary,source,published_at,url,polarity,subjectivity,sentiment
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-13 22:29:15.389097,https://example.com,0.30111719755845145,0.09787622777419636,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-12 22:29:15.389097,https://example.com,0.5735114381244106,0.3756149716561441,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-11 22:29:15.389097,https://example.com,-0.11378777305477294,0.6399055219493026,negative
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-11 22:29:15.389097,https://example.com,-0.8505988063027634,0.6092976541443501,negative
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-11 22:29:15.389097,https://example.com,0.2823787466902905,0.006885463979187878,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-10 22:29:15.389097,https://example.com,-0.11736139987507399,0.08643832984552902,negative
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-10 22:29:15.389097,https://example.com,0.24223599432364695,0.7553366049854823,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-10 22:29:15.389097,https://example.com,0.03826049087851069,0.11469441557893245,neutral
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-10 22:29:15.389097,https://example.com,0.660625302394648,0.9453969207422296,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-09 22:29:15.389097,https://example.com,-0.6076860783818936,0.24585061116660123,negative
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-09 22:29:15.389097,https://example.com,-0.7516185651799279,0.770046592329241,negative
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-08 22:29:15.389097,https://example.com,0.094532423325981,0.5692201657772393,neutral
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-08 22:29:15.389097,https://example.com,0.5192506661734808,0.500541932566303,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-07 22:29:15.389097,https://example.com,0.4681845045011712,0.5198951634286113,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-07 22:29:15.389097,https://example.com,0.4614953995763398,0.6122811062448585,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-07 22:29:15.389097,https://example.com,0.817750987579263,0.08222610108539596,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-07 22:29:15.389097,https://example.com,0.6814932142193,0.7909882240979594,positive
+Simulated news about AAPL,This is a simulated news article about AAPL,Simulation,2025-04-07 22:29:15.389097,https://example.com,0.3308340899045419,0.4842326377532057,positive

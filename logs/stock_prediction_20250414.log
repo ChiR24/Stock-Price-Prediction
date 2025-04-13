@@ -1,0 +1,331 @@
+2025-04-14 00:05:30,024 - main - INFO - Configuration:
+2025-04-14 00:05:30,024 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:05:30,024 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-14 00:05:30,024 - main - INFO -   Data source: yahoo
+2025-04-14 00:05:30,024 - main - INFO -   Model type: lstm
+2025-04-14 00:05:30,024 - main - INFO -   Use Spark: True
+2025-04-14 00:05:30,025 - main - INFO - Starting data collection
+2025-04-14 00:05:30,025 - main - INFO - Using Yahoo Finance as data source
+2025-04-14 00:05:30,025 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:05:30,025 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:05:30,026 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:05:35,058 - real_time_system - INFO - Configuration:
+2025-04-14 00:05:35,058 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:05:35,058 - real_time_system - INFO -   Data source: yahoo
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Use Kafka: True
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Model type: all
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Use MongoDB: True
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-14 00:05:35,059 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-14 00:05:35,060 - real_time_system - INFO - Starting stock data collector
+2025-04-14 00:05:35,061 - real_time_system - INFO - Starting sentiment data collector
+2025-04-14 00:05:35,061 - yahoo_sentiment - INFO - Initialized Kafka handler for topic: sentiment-data
+2025-04-14 00:05:35,061 - real_time_system - INFO - Starting economic data collector
+2025-04-14 00:05:35,062 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-14 00:05:35,062 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-14 00:05:35,062 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-14 00:05:35,062 - real_time_system - INFO - Economic collection iteration 1
+2025-04-14 00:05:35,062 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-14 00:05:35,062 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-14 00:05:35,062 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-14 00:05:35,063 - real_time_system - INFO - Starting real-time predictor
+2025-04-14 00:05:35,063 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-14 00:05:35,064 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250414_000535.txt
+2025-04-14 00:05:35,064 - real_time_system - INFO - Collected economic data
+2025-04-14 00:05:35,065 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-14 00:05:35,072 - real_time_predictor - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-14 00:05:35,072 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:05:35,072 - real_time_predictor - ERROR - Error loading LSTM model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,072 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:05:35,072 - real_time_predictor - ERROR - Error loading Ensemble model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,072 - lstm_model - INFO - LSTM model initialized for MSFT with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:05:35,073 - real_time_predictor - ERROR - Error loading LSTM model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,073 - ensemble_model - INFO - Ensemble model initialized for MSFT - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:05:35,073 - real_time_predictor - ERROR - Error loading Ensemble model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,073 - lstm_model - INFO - LSTM model initialized for GOOG with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:05:35,073 - real_time_predictor - ERROR - Error loading LSTM model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,074 - ensemble_model - INFO - Ensemble model initialized for GOOG - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:05:35,074 - real_time_predictor - ERROR - Error loading Ensemble model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:05:35,075 - real_time_predictor - INFO - Loaded models for 0 tickers
+2025-04-14 00:05:35,075 - real_time_predictor - INFO - RealTimePredictor initialized with model_type=all, prediction_horizon=5
+2025-04-14 00:05:37,085 - stock_data_collector - ERROR - Failed to initialize Kafka producer: NoBrokersAvailable
+2025-04-14 00:05:37,085 - kafka_handler - WARNING - Failed to create real Kafka consumer: NoBrokersAvailable. Using simulator instead.
+2025-04-14 00:05:37,086 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:05:37,086 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:05:37,086 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:05:37,086 - kafka_handler - INFO - Using Kafka simulator as consumer for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:05:37,087 - kafka_handler - INFO - Registered simulator consumer consumer_f3540bdd for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:05:37,087 - real_time_predictor - INFO - Started consuming messages from topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:05:37,087 - real_time_system - INFO - Real-time predictor started
+2025-04-14 00:05:40,121 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-14 00:05:46,321 - visualization_app - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-14 00:06:03,017 - visualization_app - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:03,017 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:10,897 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-14 00:06:10,898 - main - INFO - Collected stock data for AAPL
+2025-04-14 00:06:10,898 - stock_data - INFO - Collecting stock data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:10,898 - stock_data_collector - INFO - Collecting data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:17,443 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-14 00:06:17,444 - real_time_system - INFO - Stock collection iteration 1
+2025-04-14 00:06:17,444 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:06:17,444 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:06:40,266 - stock_data_collector - WARNING - No data found for AAPL
+2025-04-14 00:06:40,780 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-14 00:06:41,205 - main - INFO - Configuration:
+2025-04-14 00:06:41,206 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:06:41,206 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-14 00:06:41,206 - main - INFO -   Data source: yahoo
+2025-04-14 00:06:41,206 - main - INFO -   Model type: lstm
+2025-04-14 00:06:41,206 - main - INFO -   Use Spark: True
+2025-04-14 00:06:41,207 - main - INFO - Starting data collection
+2025-04-14 00:06:41,208 - main - INFO - Using Yahoo Finance as data source
+2025-04-14 00:06:41,208 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:06:41,208 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:41,208 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:43,357 - stock_data_collector - ERROR - Error collecting data for MSFT: 'MSFT'
+2025-04-14 00:06:43,358 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-14 00:06:43,360 - visualization_app - ERROR - Error updating recent data table: 'AAPL'
+2025-04-14 00:06:46,713 - real_time_system - INFO - Configuration:
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Data source: yahoo
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Use Kafka: True
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Model type: all
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Use MongoDB: True
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-14 00:06:46,713 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-14 00:06:46,714 - real_time_system - INFO - Starting stock data collector
+2025-04-14 00:06:46,715 - real_time_system - INFO - Starting sentiment data collector
+2025-04-14 00:06:46,715 - yahoo_sentiment - INFO - Initialized Kafka handler for topic: sentiment-data
+2025-04-14 00:06:46,715 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-14 00:06:46,715 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-14 00:06:46,715 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-14 00:06:46,716 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-14 00:06:46,716 - real_time_system - INFO - Starting economic data collector
+2025-04-14 00:06:46,717 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-14 00:06:46,717 - real_time_system - INFO - Economic collection iteration 1
+2025-04-14 00:06:46,717 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-14 00:06:46,717 - real_time_system - INFO - Starting real-time predictor
+2025-04-14 00:06:46,718 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-14 00:06:46,719 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250414_000646.txt
+2025-04-14 00:06:46,719 - real_time_system - INFO - Collected economic data
+2025-04-14 00:06:46,719 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-14 00:06:46,727 - real_time_predictor - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-14 00:06:46,727 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:06:46,727 - real_time_predictor - ERROR - Error loading LSTM model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,727 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:06:46,727 - real_time_predictor - ERROR - Error loading Ensemble model for AAPL: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,727 - lstm_model - INFO - LSTM model initialized for MSFT with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:06:46,727 - real_time_predictor - ERROR - Error loading LSTM model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,727 - ensemble_model - INFO - Ensemble model initialized for MSFT - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:06:46,728 - real_time_predictor - ERROR - Error loading Ensemble model for MSFT: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,728 - lstm_model - INFO - LSTM model initialized for GOOG with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:06:46,728 - real_time_predictor - ERROR - Error loading LSTM model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,728 - ensemble_model - INFO - Ensemble model initialized for GOOG - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:06:46,728 - real_time_predictor - ERROR - Error loading Ensemble model for GOOG: ModelBase.load_model() missing 1 required positional argument: 'filepath'
+2025-04-14 00:06:46,729 - real_time_predictor - INFO - Loaded models for 0 tickers
+2025-04-14 00:06:46,729 - real_time_predictor - INFO - RealTimePredictor initialized with model_type=all, prediction_horizon=5
+2025-04-14 00:06:47,499 - stock_data_collector - ERROR - Error collecting data for GOOGL: 'GOOGL'
+2025-04-14 00:06:47,499 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-14 00:06:47,591 - stock_data_collector - ERROR - Error collecting data for AMZN: 'AMZN'
+2025-04-14 00:06:47,591 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-14 00:06:48,743 - kafka_handler - WARNING - Failed to create real Kafka consumer: NoBrokersAvailable. Using simulator instead.
+2025-04-14 00:06:48,743 - stock_data_collector - ERROR - Failed to initialize Kafka producer: NoBrokersAvailable
+2025-04-14 00:06:48,744 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:06:48,744 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:06:48,744 - kafka_handler - INFO - Using Kafka simulator as consumer for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:06:48,744 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:06:48,745 - kafka_handler - INFO - Registered simulator consumer consumer_4dc2eb52 for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:06:48,746 - real_time_predictor - INFO - Started consuming messages from topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:06:48,746 - real_time_system - INFO - Real-time predictor started
+2025-04-14 00:06:51,294 - stock_data_collector - WARNING - No data found for MSFT between 2010-01-01 and 2023-12-31
+2025-04-14 00:06:51,295 - main - INFO - Collected stock data for MSFT
+2025-04-14 00:06:51,295 - stock_data - INFO - Collecting stock data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:51,295 - stock_data_collector - INFO - Collecting data for GOOG from 2010-01-01 to 2023-12-31
+2025-04-14 00:06:56,573 - visualization_app - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:56,573 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:56,928 - visualization_app - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:56,928 - stock_data_collector - INFO - Collecting historical data for AAPL
+2025-04-14 00:06:57,862 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-14 00:06:57,862 - real_time_system - INFO - Collected stock data for AAPL
+2025-04-14 00:06:57,862 - stock_data - INFO - Collecting stock data for MSFT from None to None
+2025-04-14 00:06:57,863 - stock_data_collector - INFO - Collecting data for MSFT from None to None
+2025-04-14 00:06:59,606 - yahoo_sentiment - WARNING - Error getting news from yfinance: Expecting value: line 1 column 1 (char 0). Using simulated data.
+2025-04-14 00:06:59,606 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-14 00:06:59,606 - yahoo_sentiment - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-14 00:06:59,606 - sentiment_data - WARNING - No sentiment data found for AAPL. Please try again later or check the ticker symbol.
+2025-04-14 00:06:59,607 - real_time_system - INFO - Collected sentiment data for AAPL
+2025-04-14 00:06:59,607 - sentiment_data - INFO - Collecting sentiment data for MSFT using Yahoo Finance news articles
+2025-04-14 00:07:20,854 - stock_data_collector - WARNING - No data found for AAPL
+2025-04-14 00:07:20,855 - stock_data_collector - ERROR - Error collecting data for META: 'META'
+2025-04-14 00:07:20,855 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-14 00:07:20,899 - stock_data_collector - ERROR - Error collecting data for TSLA: 'TSLA'
+2025-04-14 00:07:20,899 - stock_data_collector - WARNING - No data found for AAPL
+2025-04-14 00:07:20,899 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-14 00:07:20,945 - stock_data_collector - ERROR - Error collecting data for NVDA: 'NVDA'
+2025-04-14 00:07:20,945 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-14 00:07:21,086 - stock_data_collector - ERROR - Error collecting data for JPM: 'JPM'
+2025-04-14 00:07:21,086 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-14 00:07:21,365 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-14 00:07:21,413 - stock_data_collector - INFO - Collecting historical data for MSFT
+2025-04-14 00:07:21,569 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-14 00:07:21,570 - main - INFO - Collected stock data for AAPL
+2025-04-14 00:07:21,571 - stock_data - INFO - Collecting stock data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:07:21,571 - stock_data_collector - INFO - Collecting data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:07:22,293 - stock_data_collector - ERROR - Error collecting data for MSFT: 'MSFT'
+2025-04-14 00:07:22,293 - stock_data_collector - ERROR - Error collecting data for V: 'V'
+2025-04-14 00:07:22,293 - stock_data_collector - ERROR - Error collecting data for MSFT: 'MSFT'
+2025-04-14 00:07:22,293 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-14 00:07:22,294 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-14 00:07:22,294 - stock_data_collector - INFO - Collecting historical data for GOOGL
+2025-04-14 00:07:22,356 - stock_data_collector - ERROR - Error collecting data for GOOGL: 'GOOGL'
+2025-04-14 00:07:22,356 - stock_data_collector - ERROR - Error collecting data for GOOGL: 'GOOGL'
+2025-04-14 00:07:22,356 - stock_data_collector - ERROR - Error collecting data for WMT: 'WMT'
+2025-04-14 00:07:22,356 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-14 00:07:22,356 - stock_data_collector - INFO - Collecting historical data for AMZN
+2025-04-14 00:07:22,836 - stock_data_collector - ERROR - Error collecting data for AMZN: 'AMZN'
+2025-04-14 00:07:22,836 - stock_data_collector - ERROR - Error collecting data for AMZN: 'AMZN'
+2025-04-14 00:07:22,837 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-14 00:07:22,837 - stock_data_collector - INFO - Collecting historical data for META
+2025-04-14 00:07:22,928 - stock_data_collector - ERROR - Error collecting data for META: 'META'
+2025-04-14 00:07:22,928 - stock_data_collector - ERROR - Error collecting data for META: 'META'
+2025-04-14 00:07:22,928 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-14 00:07:22,928 - stock_data_collector - INFO - Collecting historical data for TSLA
+2025-04-14 00:07:23,785 - stock_data_collector - ERROR - Error collecting data for TSLA: 'TSLA'
+2025-04-14 00:07:23,785 - stock_data_collector - ERROR - Error collecting data for TSLA: 'TSLA'
+2025-04-14 00:07:23,785 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-14 00:07:23,786 - stock_data_collector - INFO - Collecting historical data for NVDA
+2025-04-14 00:07:27,808 - stock_data_collector - ERROR - Error collecting data for NVDA: 'NVDA'
+2025-04-14 00:07:27,808 - stock_data_collector - ERROR - Error collecting data for NVDA: 'NVDA'
+2025-04-14 00:07:27,808 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-14 00:07:27,808 - stock_data_collector - INFO - Collecting historical data for JPM
+2025-04-14 00:07:27,932 - stock_data_collector - ERROR - Error collecting data for JPM: 'JPM'
+2025-04-14 00:07:27,933 - stock_data_collector - ERROR - Error collecting data for JPM: 'JPM'
+2025-04-14 00:07:27,933 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-14 00:07:27,933 - stock_data_collector - INFO - Collecting historical data for V
+2025-04-14 00:07:29,161 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-14 00:07:29,161 - real_time_system - INFO - Stock collection iteration 1
+2025-04-14 00:07:29,162 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:07:29,162 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:07:31,722 - stock_data_collector - WARNING - No data found for GOOG between 2010-01-01 and 2023-12-31
+2025-04-14 00:07:31,722 - main - INFO - Collected stock data for GOOG
+2025-04-14 00:07:31,723 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-14 00:07:31,723 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-14 00:07:31,723 - main - ERROR - Error collecting sentiment data: SentimentDataCollector.collect_sentiment_data() got an unexpected keyword argument 'start_date'
+2025-04-14 00:07:31,723 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-14 00:07:31,723 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-14 00:07:31,723 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250414_000731.txt
+2025-04-14 00:07:31,724 - main - INFO - Collected economic data
+2025-04-14 00:07:31,724 - main - INFO - Data collection completed
+2025-04-14 00:07:31,724 - main - INFO - Starting data processing
+2025-04-14 00:07:36,880 - stock_data_collector - ERROR - Error collecting data for V: 'V'
+2025-04-14 00:07:36,880 - stock_data_collector - ERROR - Error collecting data for V: 'V'
+2025-04-14 00:07:36,882 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-14 00:07:36,883 - stock_data_collector - INFO - Collecting historical data for WMT
+2025-04-14 00:07:37,253 - stock_data_collector - ERROR - Error collecting data for WMT: 'WMT'
+2025-04-14 00:07:37,253 - stock_data_collector - ERROR - Error collecting data for WMT: 'WMT'
+2025-04-14 00:07:38,202 - stock_data_collector - WARNING - No data found for MSFT between None and None
+2025-04-14 00:07:38,203 - real_time_system - INFO - Collected stock data for MSFT
+2025-04-14 00:07:38,203 - stock_data - INFO - Collecting stock data for GOOG from None to None
+2025-04-14 00:07:38,203 - stock_data_collector - INFO - Collecting data for GOOG from None to None
+2025-04-14 00:07:46,133 - data_processor - INFO - Spark session initialized successfully
+2025-04-14 00:07:46,133 - data_processor - INFO - Data processor initialized (use_spark=True)
+2025-04-14 00:07:46,134 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\AAPL_stock_data.csv
+2025-04-14 00:07:46,134 - main - ERROR - Failed to process data for AAPL
+2025-04-14 00:07:46,134 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\MSFT_stock_data.csv
+2025-04-14 00:07:46,134 - main - ERROR - Failed to process data for MSFT
+2025-04-14 00:07:46,134 - data_processor - ERROR - Stock data file not found: X:\VS\Lab\Assignment 2 big datra\data\raw\GOOG_stock_data.csv
+2025-04-14 00:07:46,134 - main - ERROR - Failed to process data for GOOG
+2025-04-14 00:07:46,134 - main - INFO - Data processing completed
+2025-04-14 00:07:46,134 - main - INFO - Starting model training
+2025-04-14 00:07:46,135 - main - ERROR - Features file not found for AAPL
+2025-04-14 00:07:46,135 - main - ERROR - Features file not found for MSFT
+2025-04-14 00:07:46,135 - main - ERROR - Features file not found for GOOG
+2025-04-14 00:07:46,135 - main - INFO - Model training completed
+2025-04-14 00:07:46,135 - main - INFO - Stock market prediction system execution completed
+2025-04-14 00:08:18,623 - stock_data_collector - WARNING - No data found for GOOG between None and None
+2025-04-14 00:08:18,623 - real_time_system - INFO - Collected stock data for GOOG
+2025-04-14 00:08:18,623 - real_time_system - INFO - Sleeping for 60 seconds
+2025-04-14 00:08:24,063 - yahoo_sentiment - WARNING - Error getting news from yfinance: Expecting value: line 1 column 1 (char 0). Using simulated data.
+2025-04-14 00:08:24,064 - yahoo_sentiment - WARNING - No articles to analyze
+2025-04-14 00:08:24,064 - yahoo_sentiment - WARNING - No sentiment data found for MSFT. Please try again later or check the ticker symbol.
+2025-04-14 00:08:24,064 - sentiment_data - WARNING - No sentiment data found for MSFT. Please try again later or check the ticker symbol.
+2025-04-14 00:08:24,064 - real_time_system - INFO - Collected sentiment data for MSFT
+2025-04-14 00:08:24,064 - sentiment_data - INFO - Collecting sentiment data for GOOG using Yahoo Finance news articles
+2025-04-14 00:09:03,683 - real_time_system - INFO - System interrupted by user
+2025-04-14 00:17:58,772 - main - INFO - Configuration:
+2025-04-14 00:17:58,772 - main - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:17:58,772 - main - INFO -   Date range: 2010-01-01 to 2023-12-31
+2025-04-14 00:17:58,772 - main - INFO -   Data source: yahoo
+2025-04-14 00:17:58,772 - main - INFO -   Model type: lstm
+2025-04-14 00:17:58,772 - main - INFO -   Use Spark: True
+2025-04-14 00:17:58,773 - main - INFO - Starting data collection
+2025-04-14 00:17:58,773 - main - INFO - Using Yahoo Finance as data source
+2025-04-14 00:17:58,773 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:17:58,773 - stock_data - INFO - Collecting stock data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:17:58,773 - stock_data_collector - INFO - Collecting data for AAPL from 2010-01-01 to 2023-12-31
+2025-04-14 00:18:04,022 - real_time_system - INFO - Configuration:
+2025-04-14 00:18:04,022 - real_time_system - INFO -   Tickers: ['AAPL', 'MSFT', 'GOOG']
+2025-04-14 00:18:04,022 - real_time_system - INFO -   Data source: yahoo
+2025-04-14 00:18:04,022 - real_time_system - INFO -   Use Kafka: True
+2025-04-14 00:18:04,023 - real_time_system - INFO -   Model type: all
+2025-04-14 00:18:04,023 - real_time_system - INFO -   Prediction horizon: 5
+2025-04-14 00:18:04,023 - real_time_system - INFO -   Use MongoDB: True
+2025-04-14 00:18:04,023 - real_time_system - INFO -   Collection interval: 60 seconds
+2025-04-14 00:18:04,023 - real_time_system - INFO -   Run time: indefinite minutes
+2025-04-14 00:18:04,023 - real_time_system - INFO - Starting stock data collector
+2025-04-14 00:18:04,024 - real_time_system - INFO - Starting sentiment data collector
+2025-04-14 00:18:04,024 - yahoo_sentiment - INFO - Initialized Kafka handler for topic: sentiment-data
+2025-04-14 00:18:04,024 - yahoo_sentiment - INFO - YahooSentimentCollector initialized
+2025-04-14 00:18:04,024 - sentiment_data - INFO - SentimentDataCollector initialized with Yahoo Finance sentiment analysis
+2025-04-14 00:18:04,025 - real_time_system - INFO - Sentiment collection iteration 1
+2025-04-14 00:18:04,025 - sentiment_data - INFO - Collecting sentiment data for AAPL using Yahoo Finance news articles
+2025-04-14 00:18:04,025 - real_time_system - INFO - Starting economic data collector
+2025-04-14 00:18:04,025 - economic_data - INFO - EconomicDataCollector initialized - Only Yahoo Finance stock data will be used
+2025-04-14 00:18:04,026 - real_time_system - INFO - Starting real-time predictor
+2025-04-14 00:18:04,026 - real_time_system - INFO - Economic collection iteration 1
+2025-04-14 00:18:04,027 - economic_data - INFO - Economic data collection is skipped - Using only Yahoo Finance stock data
+2025-04-14 00:18:04,027 - real_time_system - INFO - Running indefinitely (press Ctrl+C to stop)
+2025-04-14 00:18:04,028 - economic_data - INFO - Created info file at X:\VS\Lab\Assignment 2 big datra\data\raw\economic\info_20250414_001804.txt
+2025-04-14 00:18:04,028 - real_time_system - INFO - Collected economic data
+2025-04-14 00:18:04,029 - real_time_system - INFO - Sleeping for 3600 seconds
+2025-04-14 00:18:04,034 - real_time_predictor - INFO - Connected to MongoDB: mongodb://localhost:27017, database: stock_prediction
+2025-04-14 00:18:04,035 - lstm_model - INFO - LSTM model initialized for AAPL with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:18:04,035 - lstm_model - ERROR - Model file not found: X:\VS\Lab\Assignment 2 big datra\data\models\AAPL_lstm_5d.pkl
+2025-04-14 00:18:04,035 - real_time_predictor - WARNING - Failed to load LSTM model for AAPL
+2025-04-14 00:18:04,036 - ensemble_model - INFO - Ensemble model initialized for AAPL - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:18:04,037 - model_base - ERROR - Error loading model: [Errno 2] No such file or directory: 'X:\\VS\\Lab\\Assignment 2 big datra\\data\\models\\AAPL_ensemble_5d_reg.pkl'
+2025-04-14 00:18:04,037 - real_time_predictor - WARNING - Failed to load Ensemble model for AAPL
+2025-04-14 00:18:04,037 - lstm_model - INFO - LSTM model initialized for MSFT with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:18:04,037 - lstm_model - ERROR - Model file not found: X:\VS\Lab\Assignment 2 big datra\data\models\MSFT_lstm_5d.pkl
+2025-04-14 00:18:04,038 - real_time_predictor - WARNING - Failed to load LSTM model for MSFT
+2025-04-14 00:18:04,038 - ensemble_model - INFO - Ensemble model initialized for MSFT - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:18:04,038 - model_base - ERROR - Error loading model: [Errno 2] No such file or directory: 'X:\\VS\\Lab\\Assignment 2 big datra\\data\\models\\MSFT_ensemble_5d_reg.pkl'
+2025-04-14 00:18:04,038 - real_time_predictor - WARNING - Failed to load Ensemble model for MSFT
+2025-04-14 00:18:04,038 - lstm_model - INFO - LSTM model initialized for GOOG with sequence_length=60, units=50, layers=1, prediction_horizon=5
+2025-04-14 00:18:04,038 - lstm_model - ERROR - Model file not found: X:\VS\Lab\Assignment 2 big datra\data\models\GOOG_lstm_5d.pkl
+2025-04-14 00:18:04,039 - real_time_predictor - WARNING - Failed to load LSTM model for GOOG
+2025-04-14 00:18:04,039 - ensemble_model - INFO - Ensemble model initialized for GOOG - Method: weighted_average, Models: 0, Is Classification: False
+2025-04-14 00:18:04,039 - model_base - ERROR - Error loading model: [Errno 2] No such file or directory: 'X:\\VS\\Lab\\Assignment 2 big datra\\data\\models\\GOOG_ensemble_5d_reg.pkl'
+2025-04-14 00:18:04,039 - real_time_predictor - WARNING - Failed to load Ensemble model for GOOG
+2025-04-14 00:18:04,039 - real_time_predictor - INFO - Loaded models for 0 tickers
+2025-04-14 00:18:04,039 - real_time_predictor - INFO - RealTimePredictor initialized with model_type=all, prediction_horizon=5
+2025-04-14 00:18:06,053 - stock_data_collector - ERROR - Failed to initialize Kafka producer: NoBrokersAvailable
+2025-04-14 00:18:06,053 - kafka_handler - WARNING - Failed to create real Kafka consumer: NoBrokersAvailable. Using simulator instead.
+2025-04-14 00:18:06,053 - stock_data - INFO - StockDataCollector initialized
+2025-04-14 00:18:06,053 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:18:06,053 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:18:06,054 - kafka_handler - INFO - Using Kafka simulator as consumer for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:18:06,054 - kafka_handler - INFO - Registered simulator consumer consumer_c60ff4ff for topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:18:06,055 - real_time_predictor - INFO - Started consuming messages from topics: ['stock-data', 'sentiment-data', 'economic-data']
+2025-04-14 00:18:06,055 - real_time_system - INFO - Real-time predictor started
+2025-04-14 00:18:39,617 - stock_data_collector - WARNING - No data found for AAPL between 2010-01-01 and 2023-12-31
+2025-04-14 00:18:39,617 - main - INFO - Collected stock data for AAPL
+2025-04-14 00:18:39,617 - stock_data - INFO - Collecting stock data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:18:39,617 - stock_data_collector - INFO - Collecting data for MSFT from 2010-01-01 to 2023-12-31
+2025-04-14 00:18:46,472 - stock_data_collector - WARNING - No data found for AAPL between None and None
+2025-04-14 00:18:46,473 - real_time_system - INFO - Stock collection iteration 1
+2025-04-14 00:18:46,473 - stock_data - INFO - Collecting stock data for AAPL from None to None
+2025-04-14 00:18:46,473 - stock_data_collector - INFO - Collecting data for AAPL from None to None
+2025-04-14 00:19:11,919 - real_time_system - INFO - System interrupted by user
