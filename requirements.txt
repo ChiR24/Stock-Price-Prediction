@@ -19,7 +19,7 @@ ta==0.10.2  # Technical Analysis library
 
 # Machine Learning
 tensorflow==2.13.0
-keras==3.13.1
+keras==3.13.2
 statsmodels==0.14.0
 xgboost==1.7.6
 lightgbm==4.6.0
